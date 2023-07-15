@@ -1,0 +1,87 @@
+/*Mobile View*/
+@media screen and (max-width: 576px) {
+  * {
+    font-size: 7px;
+  }
+  nav {
+    flex-direction: column;
+    gap: 20px;
+  }
+  nav h2 {
+    font-size: 3.1rem;
+  }
+  nav ul {
+    gap: 60px;
+  }
+  nav ul li {
+    width: max-content;
+  }
+  .banner-content {
+    padding: 0 10px 10px;
+  }
+  .banner-content h1 {
+    font-size: 6rem;
+  }
+  .banner-content .btn-primary {
+    padding: 10px 20px;
+  }
+  header img {
+    width: 100%;
+  }
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media screen and (min-width: 577px) and (max-width: 767px) {
+  * {
+    font-size: 8px;
+  }
+  nav {
+    flex-direction: column;
+    gap: 20px;
+  }
+  nav h2 {
+    font-size: 3.2rem;
+  }
+  nav ul {
+    gap: 60px;
+  }
+  nav ul li {
+    width: max-content;
+  }
+  .banner-content {
+    padding: 0 10px 10px;
+  }
+  .banner-content h1 {
+    font-size: 6rem;
+  }
+  .banner-content .btn-primary {
+    padding: 10px 20px;
+  }
+  header img {
+    width: 100%;
+  }
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  nav {
+    padding: 10px 20px;
+  }
+  .banner-content {
+    padding: 10px 0 20px;
+  }
+  .banner-content p {
+    width: 80%;
+  }
+  header img {
+    width: 100%;
+  }
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+}
+
+/*X-Large devices (large desktops, 1200px and up)*/
+@media screen and (min-width: 1200px) {
+}
