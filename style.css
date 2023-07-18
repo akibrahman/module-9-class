@@ -49,6 +49,7 @@ nav ul li a {
   font-size: 6.4rem;
   font-weight: 700;
   text-align: center;
+  width: max-content;
 }
 .banner-content p {
   color: #727272;
