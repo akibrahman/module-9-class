@@ -46,6 +46,24 @@
     padding: 10px 20px;
   }
 
+  /* Features Section Stylling--------------------------*/
+  .feature-wrapper {
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+  }
+  .feature-content {
+    width: 100%;
+  }
+  .feature-img {
+    width: 100%;
+  }
+  .feature-img .xp {
+    padding: 10px 20px;
+    top: 0;
+    left: 25%;
+  }
+
   /* Facts Style ---------------------------------  */
   .facts-content {
     padding: 0;
@@ -148,6 +166,24 @@
     padding: 10px 20px;
   }
 
+  /* Features Section Stylling--------------------------*/
+  .feature-wrapper {
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+  }
+  .feature-content {
+    width: 100%;
+  }
+  .feature-img {
+    width: 100%;
+  }
+  .feature-img .xp {
+    padding: 10px 20px;
+    top: 0;
+    left: 25%;
+  }
+
   /* Facts Style ---------------------------------  */
   .facts-content {
     padding: 0;
@@ -221,6 +257,29 @@
     padding: 10px 20px;
     width: 30%;
   }
+
+  /* Features Section Stylling--------------------------*/
+  .feature-wrapper {
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+  }
+  .feature-content {
+    width: 100%;
+  }
+  .feature-content .card {
+    width: 80%;
+    margin: 0 auto 20px;
+  }
+  .feature-img {
+    width: 100%;
+  }
+  .feature-img .xp {
+    padding: 10px 20px;
+    top: 0;
+    left: 30%;
+  }
+
   /* Facts Style ---------------------------------  */
   .facts-content {
     padding: 0;
@@ -280,6 +339,17 @@
   }
   .team-content .btn-primary {
     padding: 10px 20px;
+  }
+
+  /* Features Section Stylling--------------------------*/
+  .feature-wrapper {
+    padding: 10px;
+    gap: 10px;
+  }
+  .feature-img .xp {
+    padding: 10px 20px;
+    top: -70px;
+    left: 25%;
   }
   /* Sponsors Stylling------------------------- */
   .spon-wrapper p {
